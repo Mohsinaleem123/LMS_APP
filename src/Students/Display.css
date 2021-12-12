@@ -1,0 +1,21 @@
+.vertical-menu {
+    width: 150px; /* Set a width if you like */
+    background: linear-gradient(to right, #221d2c, #212209);
+  }
+  
+  .vertical-menu a {
+    background: linear-gradient(to right, #221d2c, #212209); /* Grey background color */
+    color: #1094ff; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  .vertical-menu a:hover {
+    color: rgb(0, 173, 150); /* Dark grey background on mouse-over */
+  }
+  
+  .vertical-menu a.active {
+    background-color: linear-gradient(to right, #221d2c, #212209); /* Add a green color to the "active/current" link */
+    color: #1094ff;
+  }

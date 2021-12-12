@@ -1,0 +1,9 @@
+.button-class{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #221d2c, #212209);
+}
+.button-class button{
+
+}

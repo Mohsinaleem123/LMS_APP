@@ -1,0 +1,80 @@
+.compon{
+position: absolute;
+left: 170px;
+top:8.6rem;
+color: brown;
+}
+.NAB-BAR{
+    width: 100%;
+    background: linear-gradient(to right, #221d2c, #212209); 
+    color:blanchedalmond ;
+}
+.NAB-BAR ul{
+display: flex;
+align-items: center;
+justify-content: center;
+list-style-type: none;
+width:calc(100%);
+}
+.NAB-BAR li{
+    width: calc(100%/5);
+    padding-left:40px ;
+    margin:20px;
+    background-color:inherit;
+    
+
+}
+.NAB-BAR li button{
+    border: inherit;
+    color: none;
+    background-color: inherit;
+    
+
+}
+.NAB-BAR li button:hover{
+  color:rgb(0, 173, 150);
+  border: inherit;
+  color: none;
+  background-color: inherit;
+  
+
+}
+.vertical-menu {
+    width: 150px; /* Set a width if you like */
+    background: linear-gradient(to right, #221d2c, #212209);
+    text-align: center;
+  }
+  .vertical-menu button{
+    font-size: 10px;
+    width:80px;
+    color:red;
+    background-color: inherit;
+    border:inherit;
+    border-radius: 100%;
+  }
+  .vertical-menu button:hover{
+     
+
+      color: rgb(0, 173, 150);
+      box-shadow:2px 2px 5px rgb(0, 173, 150);
+  }
+  .vertical-menu a {
+    background: linear-gradient(to right, #221d2c, #212209); /* Grey background color */
+    color: #1094ff; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding-top: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+    
+    
+  }
+  
+  .vertical-menu a:hover {
+    color: rgb(0, 173, 150);
+      box-shadow:inset 2px 2px 5px rgb(0, 173, 150);
+      border-radius: 100%; /* Dark grey background on mouse-over */
+  }
+  
+  .vertical-menu a.active {
+    background-color: linear-gradient(to right, #221d2c, #212209); /* Add a green color to the "active/current" link */
+    color: #1094ff;
+  }

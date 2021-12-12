@@ -1,0 +1,15 @@
+.Contact{
+font: optional;
+color: #0DB8DE;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+padding-top: 40px;
+position: relative;
+text-align: center; 
+}
+.Contact h1{
+    font-size: xx-large;
+    font-weight: bolder;
+    padding-bottom: 30px;
+
+}

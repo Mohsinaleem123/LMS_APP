@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #243B55, #141E30);
+}
+
+header {
+  display: flex;
+  
+  padding: 1rem 1rem 0 2rem;
+  background: linear-gradient(to right, #221d2c, #212209);
+ 
+  
+}
+
+.h-container {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 1024px;
+}
+
+.logo-wrap {
+  position: absolute;
+  top: -1.7rem;
+  left: 0;
+  margin: 2rem;
+  padding-top: 1.2rem;
+  
+  width: 25rem;
+  height: 25rem;
+  border-radius: 50%;
+  
+  }
+  .logo-wrap :hover{
+    box-shadow:
+    
+    0 0 20px #0ff,            /* outer white */
+    -10px 0 20px #0ff,        /* outer left magenta */
+    10px 0 20px #0ff;         /* outer right cyan */
+ /* background-image: linear-gradient(rgb(36, 10, 77), rgb(56, 1, 73));*/
+ 
+  }
+
+.logo {
+  font-family: 'Squada One', 'Roboto';
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #0DB8DE;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  border: 0.5rem solid #0DB8DE;
+  background:#1A2226;
+  transform: rotate(-15deg);
+ 
+}
+
+.navbar {
+  right: 8.5rem;
+  padding-top: 20px;
+  
+ height: 4rem;
+}
+.navbar ul{
+  padding-right: 4rem;
+}
+.navbar li {
+  
+  display: inline;
+ 
+  margin: 100px;
+  
+ 
+  
+  
+  
+  
+}
+
+.navbar li a {
+  color: white;
+  text-decoration: none;
+  padding-top: 300px;
+ 
+ 
+}
+
+.navbar li a:hover {
+  transition: 200ms ease-in;
+  color: rgb(0, 189, 246);
+}
+
+.navbar .btn {
+  color: rgb(21, 26, 73);
+  margin: 0 0 0 0.5rem;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  border: none;
+  background: rgb((48, 8, 71)9, 180);
+}
+
+.navbar .btn:hover {
+  transition: 200ms ease-in;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  header {
+    height: 10rem;
+    justify-content: center;
+    padding: 1rem 1rem 1rem 1rem;
+  }
+  
+  .h-container {
+    margin-top:4rem;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  
+  
+  .navbar {
+    height: 30px;
+    margin: 0.5rem;
+  }
+  
+  .navbar li {
+
+    margin-top: 1.5rem;
+     margin-bottom: 0.5rem;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+}

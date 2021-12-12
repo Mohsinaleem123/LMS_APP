@@ -1,0 +1,104 @@
+.Login{
+    display: block;
+    margin:auto;
+    width:300px;
+    height: 300px;
+    background: #1A2226;
+   
+    margin:auto;
+    margin-top: 30px;
+   
+    
+    
+   
+
+}
+.Login h1{
+    text-align: center;
+    padding-top: 20px;
+    color:#0DB8DE;
+}
+
+
+.Login input[type=text] {
+    background-color: #1A2226;
+    border: none;
+    border-bottom: 2px solid #0DB8DE;
+    border-top: 0px;
+    border-radius: 0px;
+    font-weight: bold;
+    outline: 0;
+    margin-bottom: 20px;
+    padding-left: 0px;
+    color: #ECF0F5;
+    
+}
+.Login input[type=password] {
+    background-color: #1A2226;
+    border: none;
+    border-bottom: 2px solid #0DB8DE;
+    border-top: 0px;
+    border-radius: 0px;
+    font-weight: bold;
+    outline: 0;
+    padding-left: 0px;
+    margin-bottom: 20px;
+    color: #ECF0F5;
+    
+}
+.Login input[type=password]:current{
+    color:rgb(238, 255, 198);
+}
+.Login  .details{
+    size: 100px;
+    color:#0DB8DE;
+    display: block;
+    width: max-content;
+    margin: auto;
+   
+    padding-top:10px;
+}
+.Login .det{
+    margin: auto;
+    padding-top: 40px;
+}
+.Login .button-set{
+ 
+ text-align: center;
+ margin-top: 10px;
+
+
+}
+.Login .button-set button{
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    width:80px;
+    border-radius: 1px;
+  
+    
+    
+    margin-left: 10px;
+    margin-right: 10px;
+    border-color:#0DB8DE ;
+    background-color:#1A2226 ;
+    color:#0DB8DE;
+
+}
+.Login .button-set button:hover{
+    color:#0ff;
+    border-color:rgb(238, 255, 198);
+            /* outer right cyan */
+ /* background-image: linear-gradient(rgb(36, 10, 77), rgb(56, 1, 73));*/
+ 
+   
+}
+@keyframes spin {
+    0% {
+      --rotate: 0deg;
+    }
+    100% {
+      --rotate: 360deg;
+    }
+  }
+  

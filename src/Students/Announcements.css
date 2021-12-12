@@ -1,0 +1,28 @@
+.ann table{
+    width:700px;
+}
+.ann th{
+ 
+    align-items: center;
+    padding: 10px;
+    border: 2px solid #000000;
+    background-color: #1094ff;
+    
+}
+.ann tr{
+    border: 2px solid navy;
+    padding: 50px;
+    background: linear-gradient(to right, #221d2c, #212209);
+    
+}
+.ann td{
+    margin: auto;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
+    padding: 10px;
+    
+}
+.ann p{
+    color: oldlace;
+}
