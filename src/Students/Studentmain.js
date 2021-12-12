@@ -52,14 +52,13 @@ function Studentmain (){
      }
      const logout=()=> {
        isloggedin=false;
-       localStorage.setItem("isloggedin", String(isloggedin));
-       navigate('./studentmain',{state:{id:null,isloggedin:false}})
+       
+       navigate('./Studentmain',{state:{id:null,isloggedin:false}})
        
      }
-     
-if (isloggedin==false){
-
-      return<p>some text</p> }
+   if(isloggedin==false){
+     return<p>Login to continue</p>
+   }  
 return(
     <div>
       <nav className="NAB-BAR"> 
@@ -77,23 +76,23 @@ return(
       
 
        <div class="vertical-menu">
-      <a href="" class="active">{user.name} <button onClick={logout()}> LOGOUT</button></a>
+      <a href="" class="active">{user.name} <button onClick={logout}> LOGOUT</button></a>
       <a href="/Studentmain/announcements">ANNOUNCEMENTS</a>
       <a href="/Studentmain/quizes">QUIZES</a>
       <a href="/Studentmain/assignment">ASSIGNMENT</a>
       <a href="/Studentmain/lectures">LECTURES</a>
-      <a>{isloggedin.toString()}</a>
+      <a>ATTENDANCE</a>
      </div>
     
        <div class="compon">
         <Routes>
-        <Route path='/announcements' element={<Announcements corid={corid}/>}/>
-        <Route path='/quizes/*' element={<Quizes corid={corid}/>}>
-        <Route path='Quiz' element={<Quizt corid={corid}/>} />
+        <Route path='/announcements' element={<Announcements corid={corid} isloggedin={isloggedin}/>}/>
+        <Route path='/quizes/*' element={<Quizes corid={corid} isloggedin={isloggedin}/>}>
+        <Route path='Quiz' element={<Quizt corid={corid} isloggedin={isloggedin}/>} />
         </Route>
-        <Route path='/assignment' element={<Assignment corid={corid} />}/>
-        <Route path='/content' element={<Content/>} />
-        <Route path='/lecture' element={<Lectures id={id}/>}/>
+        <Route path='/assignment' element={<Assignment corid={corid} isloggedin={isloggedin} />}/>
+        <Route path='/content' element={<Content isloggedin={isloggedin}/> } />
+        <Route path='/lecture' element={<Lectures id={id} isloggedin={isloggedin}/>}/>
 
 
 

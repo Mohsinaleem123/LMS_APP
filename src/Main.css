@@ -92,7 +92,7 @@ header {
 }
 
 .navbar li a {
-  color: white;
+  color: rgb(0, 189, 246);;
   text-decoration: none;
   padding-top: 300px;
  
@@ -100,8 +100,13 @@ header {
 }
 
 .navbar li a:hover {
-  transition: 200ms ease-in;
-  color: rgb(0, 189, 246);
+  color: rgb(0, 173, 150);
+     
+  
+     
+      ; /* Dark grey background on mouse-over */
+   
+
 }
 
 .navbar .btn {

@@ -2,8 +2,45 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
+
     background: linear-gradient(to right, #221d2c, #212209);
 }
 .button-class button{
+    padding: 20px;
+    width: calc(100%/4 - 30px);
+    background-color: inherit;
+    border :inherit ;
+    color:#1094ff;
 
+}
+.button-class button:hover{
+    color: rgb(0, 173, 150);
+      box-shadow:inset 2px 2px 5px rgb(0, 173, 150);
+      border-radius: 100%; /* Dark grey background on mouse-over */
+}
+.table {
+    color:blanchedalmond
+}
+.table td{
+    padding: 10px;
+    border: 2px solid cadetblue;
+}
+table th{
+    padding: 10px;
+    border: 2px solid cadetblue;
+}
+.table button{
+    padding: 20px;
+    width: 100px;
+    margin: 10px;
+    background-color: inherit;
+    border :inherit ;
+    color:blanchedalmond;
+
+}
+.table button:hover{
+    color: rgb(0, 173, 150);
+    box-shadow:inset 2px 2px 5px rgb(0, 173, 150);
+    border-radius: 100%;
 }

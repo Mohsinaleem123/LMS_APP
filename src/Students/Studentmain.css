@@ -78,3 +78,6 @@ width:calc(100%);
     background-color: linear-gradient(to right, #221d2c, #212209); /* Add a green color to the "active/current" link */
     color: #1094ff;
   }
+  p{
+    color: blanchedalmond;
+  }

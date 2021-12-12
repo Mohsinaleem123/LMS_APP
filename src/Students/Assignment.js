@@ -7,10 +7,11 @@ import './Assignment.css';
 
 function Assignment(props){
   const location=useLocation();
-  let id;
+  let id,isloggedin;
   let corid = props.corid;
   if (props.id != null){
     id = props.id;
+    isloggedin = location.state && location.state.isloggedin ;
     localStorage.setItem("id", String(id));
     }
 else{
@@ -49,8 +50,7 @@ else{
                 <td>{item.Due}</td>
           </tr> ))}
         </table>
-        <p>{aid}</p>
-        <p>{corid}</p>
+       
     </div>
     )
 ;

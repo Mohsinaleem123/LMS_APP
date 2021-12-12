@@ -21,7 +21,7 @@ function Announcements(props){
                     <td> {item.desc} </td>
               </tr> ))}
             </table>
-          <p>{corid}</p>
+          
         
         </div>
         )
