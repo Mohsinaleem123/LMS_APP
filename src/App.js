@@ -17,8 +17,8 @@ import Lectures from './Students/Termrep';
 import Quizt from './Students/Quiz.js';
 import Assignment from './Students/Assignment';
 import Content from './Students/Content.js';
-
-
+import Addstudent from './Admin/Addstudent';
+import Tabledisplay from './Admin/Tabledisplay';
 function App() {
  
 
@@ -36,8 +36,13 @@ function App() {
         <Route path='lectures' element={<Lectures/>}/>
         <Route path='content' element={<Content/>} />
        </Route>
-       <Route path="/Teachersmain" element={<Teachersmain/>}/> 
-       <Route path="/Adminmain" element={<Adminmain/>}/>
+       <Route path="/Teachersmain" element={<Teachersmain/>}>
+         </Route> 
+       <Route path="/Adminmain/*" element={<Adminmain/>}>
+         <Route path="addstudent" element={<Addstudent/>}/>
+         <Route path="tabledisplay" element={<Tabledisplay/>} />
+       
+       </Route>
       
        </Routes>  
 

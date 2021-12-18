@@ -1,0 +1,40 @@
+.input-show{
+    
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-show a{
+    margin-top: 50px;
+    
+    
+}
+.input-show input{
+
+    width:calc(100%/2 -20px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.button-cla button{
+    margin-top: 50px;
+    display: inline-block;
+    margin-left:40%;
+    background: linear-gradient(to right, #221d2c, #212209);
+   
+    align-items: center;
+    padding: 20px;
+    width:100px;
+    border :inherit ;
+    color:#1094ff;
+
+}
+.button-cla button:hover{
+    background: none;
+    color: rgb(0, 173, 150);
+      box-shadow:inset 2px 2px 5px rgb(0, 173, 150);
+      border-radius: 100%; /* Dark grey background on mouse-over */
+}
